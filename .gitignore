@@ -89,7 +89,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist (removing dist from gitignore file because they told us to?)
 
 # Gatsby files
 .cache/
