@@ -6,10 +6,10 @@ const path = require('path');
 // Function to generate the logo
 async function generateLogo() {
     // so people can type stuff
-    const text = await getUserInput('Enter up to three characters (e.g., ABC): ');
-    const textColor = await getUserInput('Enter text color (e.g., red or #FF5733): ');
+    const text = await getUserInput('Enter up to three characters: ');
+    const textColor = await getUserInput('Enter text color: ');
     const shape = await getUserInput('Choose a shape (circle, triangle, or square): ');
-    const shapeColor = await getUserInput('Enter shape color (e.g., blue or #3399FF): ');
+    const shapeColor = await getUserInput('Enter shape color: ');
 
     let selectedShape;
     let textX = 0;
